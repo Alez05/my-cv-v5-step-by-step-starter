@@ -1,0 +1,394 @@
+{
+  "welcome": {
+    "sectionTitle": "Welcome  to my CV",
+    "nameTitle": "Cercel Alexandru",
+    "jobTitle": "ceva",
+    "moreTitle": "About me",
+    "descriptionList": ["Hi how are you"],
+    "downloadButtonLabel": "Download my CV"
+  },
+  "skills": {
+    "sectionTitle": "Skills",
+    "descriere": "If you live through it, nice things will come. ",
+    "legend": {
+      "title": "Legend",
+      "itemList": [
+        {
+          "color": "blue",
+          "label": "Skills I love"
+        },
+        {
+          "color": "green",
+          "skills": "Skills I am good at"
+        },
+        {
+          "color": "red",
+          "label": "Skills I'd love to get better at"
+        }
+      ]
+    },
+    "skillTypeList": [
+      {
+        "category": "Front-End",
+        "skillList": [
+          {
+            "color": "blue",
+            "label": "HTML"
+          },
+          {
+            "color": "blue",
+            "labe;": "CSS"
+          },
+          {
+            "color": "blue",
+            "label": "JavaScript"
+          },
+          {
+            "color": "red",
+            "label": "SASS"
+          },
+          {
+            "color": "red",
+            "label": "React"
+          },
+          {
+            "color": "green",
+            "label": "Redux"
+          },
+          {
+            "color": "green",
+            "label": "Remix"
+          }
+        ]
+      },
+      {
+        "category": "Back-End",
+        "skillList": [
+          {
+            "color": "blue",
+            "label": "NodeJS"
+          },
+          {
+            "color": "blue",
+            "label": "Pug"
+          },
+          {
+            "color": "green",
+            "label": "CLI"
+          },
+          {
+            "color": "red",
+            "label": "BASH"
+          },
+          {
+            "color": "blue",
+            "label": "Firebase"
+          },
+          {
+            "color": "blue",
+            "label": "Webpack"
+          },
+          {
+            "color": "green",
+            "label": "Gulp"
+          },
+          {
+            "color": "red",
+            "label": "API"
+          }
+        ]
+      },
+      {
+        "category": "Others",
+        "skillList": [
+          {
+            "color": "red",
+            "label": "Windows"
+          },
+          {
+            "color": "red",
+            "label": "Linux"
+          },
+          {
+            "color": "red",
+            "label": "Mac OSx"
+          }
+        ]
+      }
+    ]
+  },
+  "connect": {
+    "sectionTitle": "Let's connect",
+    "avatarPath": "_asset/image/buzz.png",
+    "socialList": [
+      {
+        "iconita": "github",
+        "title": "github",
+        "descrpition": "There are a few projects where you can see me working with HTML and CSS",
+        "label": "github.com/Alez05",
+        "link": "https://github.com/Alez05"
+      },
+      {
+        "iconita": "linkedin",
+        "title": "Linkedin",
+        "description": "We can connect even on linkedin",
+        "label": "linkedin.com/in/cercel-alexandru-6b977b220/",
+        "link": "https://www.linkedin.com/in/cercel-alexandru-6b977b220/"
+      },
+      {
+        "iconita": "stackoverflow",
+        "title": "stackoverflow",
+        "description": "Visit my stackoverflow profile below",
+        "label": "stackoverflow.com/users/20129752/alexandru-cercel",
+        "link": "https://stackoverflow.com/users/20129752/alexandru-cercel"
+      },
+      {
+        "iconita": "codewars",
+        "title": "codewars",
+        "description": "You can see my progress here",
+        "label": "codewars.com/users/Alez05",
+        "link": "https://www.codewars.com/users/Alez05"
+      },
+      {
+        "iconita": "facebook",
+        "title": "facebook",
+        "description": "If you would like to stalk me more, check out my facebook",
+        "label": "facebook.com/alexandru cercel",
+        "link": "https://www.facebook.com/profile.php?id=100014669130510"
+      },
+      {
+        "iconita": "instagram",
+        "title": "Instagram",
+        "description": "Check my instagram too!",
+        "label": "instagram.com/alexcercel22",
+        "link": "https://www.instagram.com/alexcercel22/"
+      }
+    ]
+  },
+  "experience": {
+    "sectionTitle": "Experience",
+    "jobList": [
+      {
+        "jobTitle": "Supervisor Floor",
+        "workingPeriod": "July 2021 - Present",
+        "logo": "_asset/image/bounce.png",
+        "companyName": "State of Play",
+        "moreDetails": [
+          "Managing the floor teams to offer an amazing costumer service",
+          "Working to build a strong and efficient team"
+        ]
+      },
+      {
+        "jobTitle": "Waiter",
+        "workingPeriod": "February 2020 - July 2021",
+        "logo": "_asset/image/bounce.png",
+        "companyName": "State of Play",
+        "moreDetails": [
+          "Offering the great costumer service",
+          "Improving my skills"
+        ]
+      }
+    ]
+  },
+  "openSource": {
+    "sectionTitle": "Open Source",
+    "stats": {
+      "statsTitle": "Stats",
+      "statsList": [
+        {
+          "statIcon": "github",
+          "statDescription": [
+            "Contribution last year: over 140",
+            "Longest streak: 8 days "
+          ]
+        },
+        {
+          "statIcon": "codewars",
+          "statDescription": ["Rank: 7kyu", "Honor: 71"]
+        },
+        {
+          "statIcon": "stackoverflow",
+          "statDescription": [
+            "Top: ---",
+            "Reputation: 1",
+            "People reached: 0",
+            "Answers: 0"
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "projectSource": "GitHub projects",
+      "projectList": [
+        {
+          "projectTitle": "My CV V5 step by step starter",
+          "skillGained": [
+            {
+              "skillName": "JavaScript",
+              "percentage": "90.9",
+              "color": "energyYellow"
+            },
+            {
+              "skillName": "SCSS",
+              "percentage": "3.6",
+              "color": "mulberry"
+            },
+            {
+              "skillName": "Pug",
+              "percentage": "4.5",
+              "color": "matrix"
+            },
+            {
+              "skillName": "DockerFile",
+              "percentage": "1.0",
+              "color": "limedSpruce"
+            }
+          ],
+          "projectStats": [
+            {
+              "projectStatIcon": "commits",
+              "projectStatsInfo": "commits: 1"
+            },
+            {
+              "projectStatIcon": "stars",
+              "projectStatsInfo": "Stars: ---"
+            },
+            {
+              "projectStatIcon": "forks",
+              "projectStatsInfo": "Forks: ---"
+            }
+          ],
+          "projectInfo": "Building website in a team to increase efficiency and to deliver better and faster products; actively learning and applying HTML5, CSS3, JavaScript, ReactJS, and Redux",
+          "projectIcon": {
+            "mandatoryIcon": "info",
+            "extraIcon": [
+              {
+                "icon": "github",
+                "link": "https://github.com/Alez05/my-cv-v5-step-by-step-starter"
+              }
+            ]
+          },
+          "projectLink": {
+            "icon": "github",
+            "description": "Alez05/my-cv-v5-step-by-step-starter",
+            "link": "https://github.com/Alez05/my-cv-v5-step-by-step-starter"
+          }
+        },
+        {
+          "projectTitle": "My CV V5 step by step react starter",
+          "skillGained": [
+            {
+              "skillName": "JavaScript",
+              "percentage": "83.9",
+              "color": "energyYellow"
+            },
+            {
+              "skillName": "HTML",
+              "percentage": "16.1",
+              "color": "cinnabar"
+            }
+          ],
+          "projectStats": [
+            {
+              "projectStatIcon": "commits",
+              "projectStatsInfo": "Commits: 9"
+            },
+            {
+              "projectStatIcon": "stars",
+              "projectStatsInfo": "Stars: 0"
+            },
+            {
+              "projectStatIcon": "forks",
+              "projectStatsInfo": "Forks: ---"
+            }
+          ],
+          "projectInfo": "Building website in a team to increase efficiency and to deliver better and faster products; actively learning and applying HTML5, CSS3, JavaScript, ReactJS, and Redux",
+          "projectIcon": {
+            "mandatoryIcon": "info",
+            "extraIcon": [
+              {
+                "icon": "github",
+                "link": "https://github.com/wowdop/my-cv-v5-step-by-step-react-starter"
+              }
+            ]
+          },
+          "projectLink": {
+            "icon": "github",
+            "description": "wowdop/my-cv-v5-step-by-step-react-starter",
+            "link": "https://github.com/wowdop/my-cv-v5-step-by-step-react-starter"
+          }
+        }
+      ]
+    }
+  },
+  "portfolio": {
+    "sectionTitle": "Portfolio",
+    "subtitle": "Recent",
+    "recentPortfolioList": [
+      {
+        "title": "My CV V5 step by step starter",
+        "skills": "JavaScript, SCSS, Pug, DockerFile",
+        "link": "https://github.com/Alez05/my-cv-v5-step-by-step-starter",
+        "image": "de",
+        "linkIcon": "https://github.com/Alez05/my-cv-v5-step-by-step-starter"
+      },
+      {
+        "title": "My CV V5 step by step react starter",
+        "skills": "JavaScript, HTML",
+        "link": "https://github.com/wowdop/my-cv-v5-step-by-step-react-starter",
+        "image": "de",
+        "linkIcon": "https://github.com/wowdop/my-cv-v5-step-by-step-react-starter"
+      }
+    ]
+  },
+  "recommendation": {
+    "sectionTitle": "Recommendation",
+    "recommendationList": [
+      {
+        "image": "_asset/image/marian.png",
+        "personName": "Marian Zburlea",
+        "jobTitle": "Career Mentor",
+        "review": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quam minus obcaecati soluta suscipit. Ad eaque sapiente possimus quod atque ducimus laudantium rem eveniet rerum! Non recusandae culpa natus ipsum."
+      },
+      {
+        "image": "_asset/image/marian.png",
+        "personName": "Marian Zburlea",
+        "jobTitle": "Career Mentor",
+        "review": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quam minus obcaecati soluta suscipit. Ad eaque sapiente possimus quod atque ducimus laudantium rem eveniet rerum! Non recusandae culpa natus ipsum."
+      }
+    ]
+  },
+  "reviews": {
+    "sectionTitle": "Recommendation",
+    "reviewList": [
+      {
+        "image": "_asset/image/marian.png",
+        "personName": "Marian Zburlea",
+        "jobTitle": "Career Mentor",
+        "review": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quam minus obcaecati soluta suscipit. Ad eaque sapiente possimus quod atque ducimus laudantium rem eveniet rerum! Non recusandae culpa natus ipsum."
+      },
+      {
+        "image": "_asset/image/marian.png",
+        "personName": "Marian Zburlea",
+        "jobTitle": "Career Mentor",
+        "review": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quam minus obcaecati soluta suscipit. Ad eaque sapiente possimus quod atque ducimus laudantium rem eveniet rerum! Non recusandae culpa natus ipsum."
+      }
+    ]
+  },
+  "proud": {
+    "sectionTitle": "I'm proud",
+    "subtitle": "Awards and Achievements",
+    "proudList": [
+      {
+        "date": "2019",
+        "award": "Frumos elegant catusi de cat",
+        "location": "From Romania to London,UK"
+      },
+      {
+        "date": "2019",
+        "award": "Frumos elegant catusi de cat",
+        "location": "From Romania to London,UK"
+      }
+    ]
+  }
+}
