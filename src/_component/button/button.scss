@@ -1,0 +1,37 @@
+%refolosibil {
+  border-radius: 20px;
+  height: 35px;
+  color: white;
+  line-height: 19px;
+  border: 0;
+  padding: 8px 16px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.button {
+  &-rosu {
+    @extend %refolosibil;
+    background-color: #c62a08;
+  }
+
+  &-verde {
+    @extend %refolosibil;
+    background-color: #046b2d;
+  }
+
+  &-transparent {
+    @extend %refolosibil;
+    background-color: transparent;
+  }
+}
+
+.icoana {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
