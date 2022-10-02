@@ -20,13 +20,13 @@
   color: white;
   line-height: 24px;
 }
-
+//tablet
 @media screen and (min-width: 1024px) {
   .header {
     width: 768px;
   }
 }
-
+//desktop
 @media screen and (min-width: 1024px) {
   .header {
     width: 1200px;

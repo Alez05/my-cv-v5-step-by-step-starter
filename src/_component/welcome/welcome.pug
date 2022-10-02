@@ -1,3 +1,20 @@
--
-  var {sectionTitle, nameTitle} = data.content.welcome
+- var {sectionTitle, nameTitle, jobTitle, moreTitle, descriptionList} = data.content.welcome
 include ../header/header
+
+.text
+  .text__info-box
+    button.button__transparent
+      .icoana
+        a(href="https://www.youtube.com/watch?v=GAdak4L8gsA" title="bankai" target="_blank")
+          .cv-youtube
+
+  .text__info-box
+    .text__title= nameTitle
+
+  .text__info-box
+    .text__sub-title= jobTitle
+
+    button.button__verde
+      .icoana
+        .cv-arrow
+      | Download

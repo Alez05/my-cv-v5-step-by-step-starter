@@ -2,9 +2,11 @@
   "welcome": {
     "sectionTitle": "Welcome  to my CV",
     "nameTitle": "Cercel Alexandru",
-    "jobTitle": "ceva",
+    "jobTitle": "Web Developer",
     "moreTitle": "About me",
-    "descriptionList": ["Hi how are you"],
+    "descriptionList": [
+      "No one will ever get your goat, unless you show them where you put it"
+    ],
     "downloadButtonLabel": "Download my CV"
   },
   "skills": {
