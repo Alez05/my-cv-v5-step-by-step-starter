@@ -1,20 +1,33 @@
-- var {sectionTitle, nameTitle, jobTitle} = data.content.welcome
+- var { sectionTitle, nameTitle, jobTitle, moreTitle, info } = data.content.welcome
 include ../header/header
+include ../layout/base
 
-.text
-  .text__info-box
-    button.button__transparent
-      .icoana
-        a(href="https://www.youtube.com/watch?v=GAdak4L8gsA" title="bankai" target="_blank")
-          .cv-youtube
+block awesome-content
+  .text
+    .text__info-box
+      button.button-transparent
+        .icoana
+          a(href="https://www.youtube.com/watch?v=GAdak4L8gsA" title="bankai" target="_blank")
+            .cv-youtube
 
-  .text__info-box
-    .text__title= nameTitle
+    .text__info-box
+      .text__title= nameTitle
 
-  .text__info-box
-    .text__sub-title= jobTitle
+    .text__info-box
+      .text__sub-title= jobTitle
 
-    button.button__verde
-      .icoana
-        .cv-arrow
-      | Download
+      button.button-verde
+        .icoana
+          .cv-arrow
+        | Download
+
+    .header-wrapper-orange
+      .header-orange= info
+
+    .box__info-box
+      .text__section-title= moreTitle
+
+
+
+
+

@@ -3,10 +3,12 @@
     "sectionTitle": "Welcome  to my CV",
     "nameTitle": "Cercel Alexandru",
     "jobTitle": "Web Developer",
-    "moreTitle": "About me",
+    "moreTitle": "Summary",
     "descriptionList": [
-      "No one will ever get your goat, unless you show them where you put it"
+      "No one will ever get your goat, unless you show them where you put it",
+      "This is a summary"
     ],
+    "info": "Continue reading so you can get to know how I can help you help me help you so everytone gets helped",
     "downloadButtonLabel": "Download my CV"
   },
   "skills": {
