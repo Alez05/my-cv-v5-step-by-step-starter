@@ -1,4 +1,4 @@
-- var { sectionTitle, nameTitle, jobTitle, moreTitle, info } = data.content.welcome
+- var { sectionTitle, nameTitle, jobTitle, moreTitle, info, descriptionList } = data.content.welcome
 include ../header/header
 include ../layout/base
 
@@ -24,8 +24,18 @@ block awesome-content
     .header-wrapper-orange
       .header-orange= info
 
-    .box__info-box
-      .text__section-title= moreTitle
+    .flex-gap16
+      .box__gap-8
+      .box__info-box
+        .text__section-title= moreTitle
+
+      .box__info-box
+        each text in descriptionList
+          .box__descriere= text
+      button.button-rosu
+        .icoana
+          .cv-instagram
+        | Let's chat!
 
 
 
