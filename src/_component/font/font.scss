@@ -1,7 +1,7 @@
 @import "variable";
 
 @font-face {
-  font-family: 'icomoon';
+  font-family: #{$icomoon-font-family};
   src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?qxyfxq');
   src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?qxyfxq#iefix') format('embedded-opentype'),
     url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?qxyfxq') format('truetype'),
@@ -14,7 +14,7 @@
 
 [class^="cv-"], [class*=" cv-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: #{$icomoon-font-family} !important;
   speak: never;
   font-style: normal;
   font-weight: normal;

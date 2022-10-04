@@ -20,22 +20,25 @@ block awesome-content
         .icoana
           .cv-arrow
         | Download
+    .divider
 
     .header-wrapper-orange
       .header-orange= info
+    .divider
 
     .flex-gap16
       .box__gap-8
-      .box__info-box
-        .text__section-title= moreTitle
+        .box__info-box
+          .text__section-title= moreTitle
 
-      .box__info-box
-        each text in descriptionList
-          .box__descriere= text
+        .box__gap-8
+          each text in descriptionList
+            .box__descriere= text
       button.button-rosu
         .icoana
           .cv-instagram
         | Let's chat!
+    .divider
 
 
 

@@ -5,15 +5,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color:rgba(204, 128, 15, 0.6);
 }
 
 .header-wrapper {
   height: 40px;
   background-color:rgba(204, 0, 0, 0.6);
-}
-
-.header-wrapper-orange {
-  background-color:rgba(204, 128, 15, 0.6);
 }
 
 .header,
@@ -26,6 +23,7 @@
   font-size: 24px;
   color: white;
   line-height: 24px;
+  background-color: rgba(204, 128, 15, 1);
 }
 
 .header {
@@ -33,9 +31,6 @@
   background-color: #CC0000;
 }
 
-.header-orange {
-  background-color: rgba(204, 128, 15, 1);
-}
 //tablet
 @media screen and (min-width: 1024px) {
   .header,
@@ -43,8 +38,9 @@
     width: 768px;
   }
 }
+
 //desktop
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .header,
   .header-orange {
     width: 1200px;
