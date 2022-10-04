@@ -8,12 +8,16 @@
       "I am working on improving the candidate's experience during the job search time.",
       "I work every day with Remix, React, Hooks, Redux, NextJS, and Firebase with JavaScript and TypeScript to create amazing Apps."
     ],
-    "info": "Continue reading so you can get to know how I can help you help me help you so everytone gets helped",
+    "info": "Continue reading so you can get to know how I can help you help me help you so everyone gets helped",
     "downloadButtonLabel": "Download my CV"
   },
   "skills": {
-    "sectionTitle": "Skills",
-    "descriere": "If you live through it, nice things will come. ",
+    "sectionTitle": "Tech I love to work with",
+    "moreTitle": "Skills",
+    "descriptionList": [
+      "I am working on improving the candidate's experience during the job search time.",
+      "I work every day with Remix, React, Hooks, Redux, NextJS, and Firebase with JavaScript and TypeScript to create amazing Apps."
+    ],
     "legend": {
       "title": "Legend",
       "itemList": [
@@ -124,13 +128,20 @@
   "connect": {
     "sectionTitle": "Let's connect",
     "avatarPath": "_asset/image/buzz.png",
+    "boxContent": {
+      "boxTitle": "Contact",
+      "content": [
+        "I am working on improving the candidate's experience during the job search time.",
+        "I work every day with Remix, React, Hooks, Redux, NextJS, and Firebase with JavaScript and TypeScript to create amazing Apps."
+      ]
+    },
     "socialList": [
       {
         "iconita": "github",
         "title": "github",
         "descrpition": "There are a few projects where you can see me working with HTML and CSS",
-        "label": "github.com/Alez05",
-        "link": "https://github.com/Alez05"
+        "label": "github.com/alez05",
+        "link": "https://github.com/alez05"
       },
       {
         "iconita": "linkedin",
@@ -150,8 +161,8 @@
         "iconita": "codewars",
         "title": "codewars",
         "description": "You can see my progress here",
-        "label": "codewars.com/users/Alez05",
-        "link": "https://www.codewars.com/users/Alez05"
+        "label": "codewars.com/users/alez05",
+        "link": "https://www.codewars.com/users/alez05"
       },
       {
         "iconita": "facebook",
