@@ -1,5 +1,5 @@
 -
-  var{ sectionTitle, moreTitle, descriptionList } = data.content.skills
+  var{ sectionTitle, moreTitle, descriptionList,skillTypeList, category, skillList, label } = data.content.skills
 include ../header/header
 include ../layout/base
 
@@ -11,11 +11,21 @@ block awesome-content
           a(href="https://www.youtube.com/watch?v=GAdak4L8gsA" title="bankai" target="_blank")
             .cv-youtube
 
-    .flex-gap16
-      .box__gap-8
-        .box__info-box
-          .text__section-title= moreTitle
+      .flex-gap16
         .box__gap-8
-          each text in descriptionList
-            .box-descriere= text
+          .box__info-box
+            .text__section-title= moreTitle
+          .box__gap-8
+            each text in descriptionList
+              .box-descriere= text
 
+          .wrap
+            each skills in skillTypeList
+              .wrap
+                .title= skills.category
+
+                .skillContainer
+                  each element in skills.skillList
+                    div(
+                      class=`pill--${element.color}`
+                    )= element.label

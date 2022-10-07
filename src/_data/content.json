@@ -9,7 +9,7 @@
       "I work every day with Remix, React, Hooks, Redux, NextJS, and Firebase with JavaScript and TypeScript to create amazing Apps."
     ],
     "info": "Continue reading so you can get to know how I can help you help me help you so everyone gets helped",
-    "downloadButtonLabel": "Download my CV"
+    "downloadButton": "Download"
   },
   "skills": {
     "sectionTitle": "Tech I love to work with",
@@ -45,7 +45,7 @@
           },
           {
             "color": "blue",
-            "labe;": "CSS"
+            "label": "CSS"
           },
           {
             "color": "blue",
@@ -107,7 +107,7 @@
         ]
       },
       {
-        "category": "Others",
+        "category": "Presentation",
         "skillList": [
           {
             "color": "red",
