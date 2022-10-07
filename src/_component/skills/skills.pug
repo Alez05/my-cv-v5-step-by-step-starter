@@ -1,5 +1,5 @@
 -
-  var{ sectionTitle, moreTitle, descriptionList,skillTypeList, category, skillList, label } = data.content.skills
+  var{ sectionTitle, moreTitle, descriptionList,skillTypeList, category, skillList, label, legend } = data.content.skills
 include ../header/header
 include ../layout/base
 
@@ -29,3 +29,19 @@ block awesome-content
                     div(
                       class=`pill--${element.color}`
                     )= element.label
+
+            .text__info-box-shadow
+              .text__section-title= legend.title
+              each label, cheie in legend.itemList
+                .text__skill
+                  .legendContainer
+                    div(
+                      class= `pill--${label.color}`
+                    )= cheie+1
+                    .text__descriere= label.label
+
+      button.button-rosu
+        .icoana
+          a(href="https://www.instagram.com/alexcercel22/" title="contact me" target="_blank")
+            .cv-instagram
+        | Let's chat!

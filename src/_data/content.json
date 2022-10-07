@@ -27,7 +27,7 @@
         },
         {
           "color": "green",
-          "skills": "Skills I am good at"
+          "label": "Skills I am good at"
         },
         {
           "color": "red",
