@@ -126,7 +126,7 @@
     ]
   },
   "connect": {
-    "sectionTitle": "Let's connect",
+    "sectionTitle": "Let's connect!",
     "avatarPath": "_asset/image/buzz.png",
     "boxContent": {
       "boxTitle": "Contact",
@@ -137,42 +137,42 @@
     },
     "socialList": [
       {
-        "iconita": "github",
+        "icon": "github",
         "title": "github",
         "descrpition": "There are a few projects where you can see me working with HTML and CSS",
         "label": "github.com/alez05",
         "link": "https://github.com/alez05"
       },
       {
-        "iconita": "linkedin",
+        "icon": "linkedin",
         "title": "Linkedin",
         "description": "We can connect even on linkedin",
         "label": "linkedin.com/in/cercel-alexandru-6b977b220/",
         "link": "https://www.linkedin.com/in/cercel-alexandru-6b977b220/"
       },
       {
-        "iconita": "stackoverflow",
+        "icon": "stackoverflow",
         "title": "stackoverflow",
         "description": "Visit my stackoverflow profile below",
         "label": "stackoverflow.com/users/20129752/alexandru-cercel",
         "link": "https://stackoverflow.com/users/20129752/alexandru-cercel"
       },
       {
-        "iconita": "codewars",
+        "icon": "codewars",
         "title": "codewars",
-        "description": "You can see my progress here",
+        "description": "You can see my progress here!",
         "label": "codewars.com/users/alez05",
         "link": "https://www.codewars.com/users/alez05"
       },
       {
-        "iconita": "facebook",
+        "icon": "facebook",
         "title": "facebook",
         "description": "If you would like to stalk me more, check out my facebook",
         "label": "facebook.com/alexandru cercel",
         "link": "https://www.facebook.com/profile.php?id=100014669130510"
       },
       {
-        "iconita": "instagram",
+        "icon": "instagram",
         "title": "Instagram",
         "description": "Check my instagram too!",
         "label": "instagram.com/alexcercel22",
